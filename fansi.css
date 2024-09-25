@@ -11,7 +11,7 @@ body{margin:0}/* article,aside,details,figcaption,figure,footer,header,hgroup,ma
     height: 10vh;
 }
 .menu{
-    background-color: #b6f0f8;
+    background-color: #ffffff;
   background-size: cover;
 }
 
@@ -69,7 +69,7 @@ body{margin:0}/* article,aside,details,figcaption,figure,footer,header,hgroup,ma
   .card__title {
     margin: 0;
     font-size: 24px;
-    color: #333;
+    color: #0b44ff;
     font-weight: 700;
   }
   
@@ -85,6 +85,7 @@ body{margin:0}/* article,aside,details,figcaption,figure,footer,header,hgroup,ma
   }
   .azu{
     background-color: #D1EFF7;
+    height: 30rem;
   }
   .btn{
     width: 100%;
@@ -98,9 +99,15 @@ body{margin:0}/* article,aside,details,figcaption,figure,footer,header,hgroup,ma
   .parques-1{
     font-size: 3rem;
   }
+  .titulos{
+    color: #e29118;
+  }
+  .btn-color{
+    background-color: #f1b964;
+  }
   button {
-    font-size: 5rem;
-    color: #000000;
+    font-size: 4rem;
+    color: #e29118;
     font-family: inherit;
     font-weight: 800;
     cursor: pointer;
@@ -143,3 +150,142 @@ body{margin:0}/* article,aside,details,figcaption,figure,footer,header,hgroup,ma
     height: 10px;
 
   }
+ .vivi{
+  background-image: url(./multimedia/fondosolo1.png);
+    background-size: cover;
+    height: auto;
+    background-repeat: no-repeat;
+
+ }
+ .footer-container{
+  background-image: url(./multimedia/logo\ fansia.png);
+  padding: 60px 0;
+  margin-top: 30px;
+
+ }
+ .comic{
+  background-image: url(./multimedia/mantenimiento.png);
+  background-size: cover;
+  height: 70vh;
+ }
+ .nav-link{
+  font-size: 1rem;
+    color: #000000;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+ }
+
+ .nav-link:focus,
+ .nav-link:hover {
+   color: #76ebc4;
+ }
+ 
+ button:focus:after,
+ button:hover:after {
+   width: 100%;
+   font-size: 10rem;
+   left: 0%;
+ }
+ 
+ .nav-link:after {
+   content: "";
+   pointer-events: none;
+   bottom: -2px;
+   left: 50%;
+   position: absolute;
+   width: 0%;
+   height: 2px;
+   background-color: #64cef8;
+   transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+   transition-duration: 400ms;
+   transition-property: width, left;
+ }
+ 
+
+ /* From Uiverse.io by nikk7007 */ 
+button-7 {
+  padding: 0.8em 1.8em;
+  border: 2px solid #17C3B2;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  transition: .3s;
+  z-index: 1;
+  font-family: inherit;
+  color: #17C3B2;
+ }
+ 
+ .button7::before {
+  content: '';
+  width: 0;
+  height: 300%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+  background: #17C3B2;
+  transition: .5s ease;
+  display: block;
+  z-index: -1;
+ }
+ 
+ button-7:hover::before {
+  width: 105%;
+ }
+ 
+ button-7:hover {
+  color: #111;
+ }
+ 
+
+
+               
+          
+ .transUp{
+  transition: .5s, color .10s;
+      -webkit-transition: .5s, color .10s;
+      -moz-transition: .5s, color .10s;
+}
+.transUp:hover{
+  transform: translatey(-20px);
+      -webkit-transform: translatey(-20px);
+      -moz-transform: translatey(-20px);
+}
+/* Estilos para el pie de página */
+footer {
+  background-color: #000000;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.redes-sociales {
+  margin-bottom: 10px;
+}
+
+.redes-sociales a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #fff;
+}
+
+.redes-sociales a:hover {
+  color: #ccc;
+}
+
+.fa {
+  font-family: 'FontAwesome';
+}
+            
+  

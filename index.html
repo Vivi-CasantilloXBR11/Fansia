@@ -33,8 +33,8 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-              <a class="nav-link" href="#">Comic</a>
+              <a class="nav-link" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link " href="#">Comic</a>
               <a class="nav-link" href="#">Nosotros</a>
               <a class="nav-link" href="#">Tienda</a>
             </div>
@@ -53,9 +53,11 @@
          Bienvenidos
       </button>
         <p class=".text-body-emphasis  parques-1" >A Parques del Rio.</p>
-        <p class=".text-dark  uno-cero" >Conoce la variedad de actividades que puedes hacer en parques del rio con un divertido comic</p>
+        <p class=".text-dark flex-column uno-cero col-lg-10 ps-3">Conoce la variedad de actividades que puedes hacer en parques del rio con un divertido comic</p>
         <br>
-        <a href="./Comic.html" class="btn btn-default btn-lg text-primary" title="">Comic</a>
+        <button-7 class="transUp"><a href="./Comic.html" class="text-decoration-none">Comic</a>
+        </button>
+        
       </div>
 
     </div>
@@ -72,7 +74,7 @@
           </path>
         </svg>
         <div class="card__content">
-          <p class="card__title">Actividades educativas</p>
+          <p class="card__title">Actividades Educativas</p>
           <p class="card__description">Visitas guiadas para aprender sobre la historia y ecologia del parque.
             observacion de aves y vida silvestre
         </div>
@@ -115,88 +117,75 @@
     </div>
   </div>
 
-  <div class="row">
-    <h1>Sobre nosotros</h1>
-  </div>
-  <div class="row d-flex justify-content-center gap-5">
+  <div >
+    <div class="row">
+      <h1 class="row d-flex justify-content-center gap-5 titulos">Sinopsis</h1>
+    <div class="row azul d-flex justify-content-center align-items-center gap-5">
+      <div class="col-lg-5 d-flex justify-content-center align-items-center mt-5 azu ">
+        <p class=" d-flex flex-column justify-content-center align-items-center ps-3">
+          "En 'La Aventura en el Parque del Río', dos hermanos curiosos y aventureros, Orko y Alka, descubren un dispositivo misterioso que les permite teletransportarse a diferentes lugares del mundo. Su primer destino es el Parque del Río en Colombia, donde conocen a Santiago, un niño local que se convierte en su guía y amigo. Juntos, exploran la Cascada de los Ángeles y la colonia de mariposas monarca en peligro de extinción. Cuando una tormenta amenaza con destruir la cascada, los tres amigos deben trabajar juntos para encontrar una solución y proteger la vida silvestre. Con acción, aventura y corazón, esta historia inspira a cuidar nuestros recursos naturales y proteger la biodiversidad."
 
-    <div class="col-lg-3 ">
-
-      <img class="img-fluid" src="./multimedia/chibiyo.png" alt="">
-
-    </div>
-
-    <div class="col-lg-7 azu  d-flex justify-content-center
-      align-items-center ">
-
-      <div class="col-lg-6 d-flex justify-content-center
-        align-items-center">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis culpa facere similique sequi natus maiores
-          dolor necessitatibus labore ad. Molestias cupiditate culpa, ab iusto sed beatae similique odit nisi quibusdam!
-        </p>
-      </div>
-
-    </div>
+    </p>
 
   </div>
+
+  <div class="col-lg-5 comic d-flex justify-content-center align-items-center mt-5">
+    <a href="·" class="bg-primary text-light text-decoration-none">COMIC</a>
+  </div>
+</div>
+</div>
+</div>
+
 
   <div class="row">
-    <h1 class="row d-flex justify-content-center gap-5">Personajes</h1>
+    <h1 class="row d-flex justify-content-center gap-5 titulos">Personajes</h1>
 
   </div>
-
+ 
   <div class="row d-flex justify-content-center gap-5" >
 
     <div class="col-lg-3  d-flex justify-content-center align-items-center flex-column" data-bs-toggle="modal" data-bs-target="#alka" >
-
       <img class="img-fluid per my-5" src="./multimedia/chibiyo.png" alt="">
-
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#alka">
+      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#alka">
         alka
       </button>
-
       <!-- Modal -->
       <div class="modal fade" id="alka" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-target="#alka" >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">ALKA</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="alka">ALKA</h1>
+              <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
             </div>
             <div class="modal-body">
-              hola soy alka y tengo 19 años
+              Alka es una joven valiente, curiosa y determinada. Siempre está dispuesta a enfrentar nuevos desafíos y explorar lo desconocido. Su espíritu aventurero y su imaginación la llevan a descubrir cosas emocionantes en cada situación.
+
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-color" data-bs-dismiss="modal">Cerrar</button>
             </div>
           </div>
         </div>
       </div>
-
     </div>
-
-
     <div class="col-lg-3  d-flex justify-content-center align-items-center flex-column" data-bs-toggle="modal" data-bs-target="#orko" >
-
       <img class="img-fluid per my-5" src="./multimedia/orko.png" alt="">
-
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#orko">
-        orko
+      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#orko">
+        Orko
       </button>
-
       <!-- Modal -->
       <div class="modal fade" id="orko" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-target="#orko" >
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h1 class="modal-title fs-5" id="exampleModalLabel">ORKO</h1>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <h1 class="modal-title fs-5" id="exampleModalLabel">Orko</h1>
+             <!--  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
             </div>
             <div class="modal-body">
-              hola soy orko
+              Orko es un joven aventurero, curioso y apasionado por la ciencia y la tecnología. Siempre está buscando nuevos desafíos y soluciones innovadoras. Es valiente, determinado y leal a sus seres queridos.
+
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -204,12 +193,77 @@
           </div>
         </div>
       </div>
+    </div>
+    <div class="col-lg-3  d-flex justify-content-center align-items-center flex-column" data-bs-toggle="modal" data-bs-target="#santi" >
+      <img class="img-fluid per my-5" src="./multimedia/santiago.png" alt="">
+      <!-- Button trigger modal -->
+      <button type="button" class="btn btn-color" data-bs-toggle="modal" data-bs-target="#santi">
+        Santiago
+      </button>
+      <!-- Modal -->
+      <div class="modal fade" id="santi" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" data-bs-target="#santi" >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="exampleModalLabel">SANTIAGO</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              Alka es una joven valiente, curiosa y determinada. Siempre está dispuesta a enfrentar nuevos desafíos y explorar lo desconocido. Su espíritu aventurero y su imaginación la llevan a descubrir cosas emocionantes en cada situación.
 
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
 
 
+<div class="row">
+  <h1 class=" d-flex justify-content-center titulos">Sobre nosotros</h1>
+</div>
+
+
+<div class="row d-flex justify-content-center align-items-center gap-5 vivi">
+
+  <div class="col-lg-3 d-flex justify-content-center align-items-center">
+
+    <img class="img-fluid" src="./multimedia/yochibi.png" alt="">
+
+  </div>
+
+  <div class="col-lg-6  d-flex justify-content-center
+    align-items-center  ">
+
+    <div class="col-lg-6 d-flex justify-content-center
+      align-items-center">
+      <p>
+     <strong> "Hola, soy Viviana Castillo, estudiante de Producción de Multimedia. Me enfoco en audiovisuales, diseño, moda y bienestar. En este proyecto, lidero la creación de una experiencia multimedia que destaca la belleza de Parques del Río. ¡Bienvenidos! </strong>
+      </p>
     </div>
+
+  </div>
+
+
+        </div>
+    <!-- Pie de página -->
+<footer>
+  <div class="redes-sociales">
+    <a href="https://www.facebook.com/" target="_blank">
+      <i class="fa fa-facebook-square" aria-hidden="true"></i>
+    </a>
+    <a href="#" target="_blank">
+      <i class="fa fa-instagram" aria-hidden="true"></i>
+    </a>
+  </div>
+  <p>&copy; 2024 Tu Sitio Web. Todos los derechos reservados.</p>
+</footer>
+      </footer>
+    
+
 
 
 
